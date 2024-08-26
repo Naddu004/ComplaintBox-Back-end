@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|c:\\users\\exam\\desktop\\complaintbox\\complaintbox\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|solutionrelative:controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|c:\\users\\exam\\desktop\\complaintbox\\complaintbox\\controllers\\complaintscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|solutionrelative:controllers\\complaintscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|c:\\users\\exam\\desktop\\complaintbox\\complaintbox\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|c:\\users\\exam\\desktop\\complaintbox\\complaintbox\\controllers\\users1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|solutionrelative:controllers\\users1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|c:\\users\\exam\\desktop\\complaintbox\\complaintbox\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|c:\\users\\exam\\desktop\\complaintbox\\complaintbox\\models\\complaintboxdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|solutionrelative:models\\complaintboxdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|c:\\users\\exam\\desktop\\complaintbox\\complaintbox\\models\\complaintinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|solutionrelative:models\\complaintinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|c:\\users\\exam\\desktop\\complaintbox\\complaintbox\\models\\complaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CF6636-F6E2-4945-8137-DC5EA33572BC}|ComplaintBox.csproj|solutionrelative:models\\complaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminsController.cs",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Controllers\\AdminsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminsController.cs",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Controllers\\AdminsController.cs",
+              "RelativeToolTip": "Controllers\\AdminsController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwBEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T16:12:56.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Users1Controller.cs",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Controllers\\Users1Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Users1Controller.cs",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Controllers\\Users1Controller.cs",
+              "RelativeToolTip": "Controllers\\Users1Controller.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAAAEwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T11:19:26.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwC4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T11:15:10.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAswCoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:13:31.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ComplaintsController.cs",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Controllers\\ComplaintsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ComplaintsController.cs",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Controllers\\ComplaintsController.cs",
+              "RelativeToolTip": "Controllers\\ComplaintsController.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAswHYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T11:14:44.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ComplaintBoxDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Models\\ComplaintBoxDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ComplaintBoxDbContext.cs",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Models\\ComplaintBoxDbContext.cs",
+              "RelativeToolTip": "Models\\ComplaintBoxDbContext.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowCAAAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T10:53:42.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Complaint.cs",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Models\\Complaint.cs",
+              "RelativeDocumentMoniker": "Models\\Complaint.cs",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Models\\Complaint.cs",
+              "RelativeToolTip": "Models\\Complaint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T11:43:37.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComplaintInfo.cs",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Models\\ComplaintInfo.cs",
+              "RelativeDocumentMoniker": "Models\\ComplaintInfo.cs",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\ComplaintBox\\ComplaintBox\\Models\\ComplaintInfo.cs",
+              "RelativeToolTip": "Models\\ComplaintInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T11:12:18.256Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

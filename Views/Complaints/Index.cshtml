@@ -1,0 +1,89 @@
+﻿@model IEnumerable<ComplaintBox.Models.Complaint>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ComplaintType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateTimeLodged)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ComplaintStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StreetNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BuildingNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Images)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdminAlloted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PinCodeNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Victim)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ComplaintType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateTimeLodged)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ComplaintStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StreetNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BuildingNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Images)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdminAlloted.AdminId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PinCodeNavigation.PinCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Victim.VictimId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ComplaintId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ComplaintId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ComplaintId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

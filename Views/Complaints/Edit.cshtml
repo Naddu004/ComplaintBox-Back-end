@@ -1,0 +1,79 @@
+﻿@model ComplaintBox.Models.Complaint
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Complaint</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ComplaintId" />
+            <div class="form-group">
+                <label asp-for="ComplaintType" class="control-label"></label>
+                <input asp-for="ComplaintType" class="form-control" />
+                <span asp-validation-for="ComplaintType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateTimeLodged" class="control-label"></label>
+                <input asp-for="DateTimeLodged" class="form-control" />
+                <span asp-validation-for="DateTimeLodged" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ComplaintStatus" class="control-label"></label>
+                <input asp-for="ComplaintStatus" class="form-control" />
+                <span asp-validation-for="ComplaintStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StreetNo" class="control-label"></label>
+                <input asp-for="StreetNo" class="form-control" />
+                <span asp-validation-for="StreetNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BuildingNo" class="control-label"></label>
+                <input asp-for="BuildingNo" class="form-control" />
+                <span asp-validation-for="BuildingNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PinCode" class="control-label"></label>
+                <select asp-for="PinCode" class="form-control" asp-items="ViewBag.PinCode"></select>
+                <span asp-validation-for="PinCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VictimId" class="control-label"></label>
+                <select asp-for="VictimId" class="form-control" asp-items="ViewBag.VictimId"></select>
+                <span asp-validation-for="VictimId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdminAllotedId" class="control-label"></label>
+                <select asp-for="AdminAllotedId" class="form-control" asp-items="ViewBag.AdminAllotedId"></select>
+                <span asp-validation-for="AdminAllotedId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Images" class="control-label"></label>
+                <input asp-for="Images" class="form-control" />
+                <span asp-validation-for="Images" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
